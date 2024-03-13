@@ -13,12 +13,15 @@
 # Here the comments below have been added to enchance code readability
 
 
-# Takes a user input 
-user_Input = input(("\nPlease enter 'Hello World': "))		
+# Takes a clients input 
+client_Input = input(("\nPlease enter 'Hello World': "))		
 
-# Outputs and prints the user_input, if the conditions are met within the if statement.
-if user_Input == "Hello World!":
-	print("\n" + user_Input + "\n")
+# Outputs and prints the client_input, if the conditions are met within the if statement.
+if client_Input == "Hello World!":
+	print("\n" + client_Input + "\n")
+
+	print("\nThis is the end of the program.\n")
+
 
 
 
