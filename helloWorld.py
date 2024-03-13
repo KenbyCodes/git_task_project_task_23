@@ -10,8 +10,13 @@
 
 
 
+# Here the comments below have been added to enchance code readability
+
+
+# Takes a user input 
 user_Input = input(("\nPlease enter 'Hello World': "))		
 
+# Outputs and prints the user_input, if the conditions are met within the if statement.
 if user_Input == "Hello World!":
 	print("\n" + user_Input + "\n")
 
